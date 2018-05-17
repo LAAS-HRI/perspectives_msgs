@@ -1,7 +1,7 @@
 # This is the service definition to start a fact
 # The description of the fact need to be in the following format :
-# "<predicate>(<subject_name>,<object_name>)" for n2 predicates
-# "<predicate>(<subject_name>)" for n1 predicates
+# "<predicate>(<subject_name>,<object_name>)" for 2 argument predicates
+# "<predicate>(<subject_name>)" for 1 argument predicates
 string world_name # the underworlds world where start the fact
 string description # the predicate
 int64 starttime # the starting time of the fact, if zero, the fact is stamped when the service receive the request
