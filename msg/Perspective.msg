@@ -1,4 +1,5 @@
 #
+string agent_id
 string agent_name
-string[] object_seen
-string[] agent_seen
+Object[] objects_seen
+Agent[] agents_seen

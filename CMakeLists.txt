@@ -52,14 +52,17 @@ find_package(catkin REQUIRED COMPONENTS
    Agent.msg
    Object.msg
    Fact.msg
-   Perspective.msg
+
    AgentArray.msg
    ObjectArray.msg
    FactArray.msg
-   PerspectiveArray.msg
+
    AgentArrayStamped.msg
    ObjectArrayStamped.msg
    FactArrayStamped.msg
+
+   Perspective.msg
+   PerspectiveArray.msg
    PerspectiveArrayStamped.msg
 )
 
