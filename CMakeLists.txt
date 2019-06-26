@@ -72,6 +72,7 @@ find_package(catkin REQUIRED COMPONENTS
    EndFact.srv
    StartFact.srv
    HasMesh.srv
+   GetName.srv
 )
 
 ## Generate actions in the 'action' folder
