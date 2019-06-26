@@ -1,0 +1,5 @@
+string world
+string id
+---
+string name
+bool success
